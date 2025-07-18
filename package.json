@@ -1,0 +1,39 @@
+{
+  "name": "@1815/wp-packages-update",
+  "version": "1.0.0",
+  "description": "A tool to update WordPress packages to their latest version or a specified distribution tag",
+  "main": "src/index.js",
+  "bin": {
+    "wp-packages-update": "./bin/wp-packages-update.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "wordpress",
+    "packages",
+    "update",
+    "yarn"
+  ],
+  "author": "1815 <it@1815.nl>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "cross-spawn": "^7.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "jest": "^29.6.2"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "files": [
+    "bin",
+    "src",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md"
+  ]
+}

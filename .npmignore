@@ -1,0 +1,38 @@
+# Source code (since we publish the compiled code)
+src/
+
+# Tests
+tests/
+coverage/
+.nyc_output/
+
+# Configuration files
+.babelrc
+jest.config.js
+.eslintrc
+.eslintignore
+
+# Git files
+.git/
+.gitignore
+
+# CI/CD files
+.travis.yml
+.github/
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
