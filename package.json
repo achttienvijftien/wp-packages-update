@@ -1,10 +1,10 @@
 {
-  "name": "@1815/wp-packages-update",
+  "name": "@achttienvijftien/wp-packages-update",
   "version": "1.0.0",
   "description": "A tool to update WordPress packages to their latest version or a specified distribution tag",
   "main": "src/index.js",
   "bin": {
-    "wp-packages-update": "./bin/wp-packages-update.js"
+    "wp-packages-update": "bin/wp-packages-update.js"
   },
   "scripts": {
     "test": "jest",
@@ -35,5 +35,16 @@
     "README.md",
     "CHANGELOG.md",
     "CONTRIBUTING.md"
-  ]
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achttienvijftien/wp-packages-update.git"
+  },
+  "bugs": {
+    "url": "https://github.com/achttienvijftien/wp-packages-update/issues"
+  },
+  "homepage": "https://github.com/achttienvijftien/wp-packages-update#readme"
 }
