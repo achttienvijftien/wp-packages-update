@@ -12,7 +12,7 @@
  *   --dist-tag  Distribution tag to use (default: 'latest')
  */
 
-import { PackagesUpdater } from '../src';
+import { PackagesUpdater } from '../src/index.js';
 
 /**
  * Extracts command line arguments
