@@ -1,6 +1,6 @@
 {
   "name": "@achttienvijftien/wp-packages-update",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to update WordPress packages to their latest version or a specified distribution tag",
   "main": "src/index.js",
   "bin": {
